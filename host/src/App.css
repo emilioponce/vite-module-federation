@@ -1,0 +1,35 @@
+header {
+  grid-area: header;
+  background-color: #fdf6db;
+  padding: 20px;
+}
+
+article {
+  grid-area: content;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #d5edff;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #ffe8d6;
+  padding: 20px;
+}
+
+.wrapper {
+  display: grid;
+  height: 98vh;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-areas: 
+    "header  header"
+    "sidebar content"
+    "footer  footer";
+}

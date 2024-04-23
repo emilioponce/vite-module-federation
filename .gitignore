@@ -1,0 +1,14 @@
+
+node_modules
+**/node_modules/**
+*.log
+npm-debug.log*
+.npm
+pnpm-*
+yarn-debug.log*
+yarn-error.log*
+.vscode
+!/**/*.gitkeep
+**/dist/**
+**/build/**
+
